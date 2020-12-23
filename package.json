@@ -2,25 +2,25 @@
   "name": "checks",
   "version": "1.0.0",
   "description": "A library to check parameters.",
-  "main": "index.js",
-  "scripts": {
-    "test": ".\\node_modules\\.bin\\karma start",
-    "test.ci": ".\\node_modules\\.bin\\karma start --single-run"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cbuteau/checks.git"
-  },
   "keywords": [
     "parameter",
     "valid"
   ],
-  "author": "Christopher W Buteau <cbuteau@gmail.com>",
-  "license": "MIT",
+  "homepage": "https://github.com/cbuteau/checks#readme",
   "bugs": {
     "url": "https://github.com/cbuteau/checks/issues"
   },
-  "homepage": "https://github.com/cbuteau/checks#readme",
+  "license": "MIT",
+  "author": "Christopher W Buteau <cbuteau@gmail.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbuteau/checks.git"
+  },
+  "scripts": {
+    "test": ".\\node_modules\\.bin\\karma start",
+    "test.ci": ".\\node_modules\\.bin\\karma start --single-run"
+  },
   "devDependencies": {
     "jasmine": "3.6.3",
     "karma": "5.2.3",
